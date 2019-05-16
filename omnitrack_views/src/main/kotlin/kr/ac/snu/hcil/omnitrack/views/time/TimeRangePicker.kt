@@ -254,7 +254,7 @@ class TimeRangePicker : ConstraintLayout, View.OnClickListener {
                     to += TimeHelper.daysInMilli * 1
                 }
                 Granularity.TIME -> {
-                    to += TimeHelper.minutesInMilli * 30
+                    to += TimeHelper.minutesInMilli * 5
                 }
             }
             timeRangeChanged.invoke(this@TimeRangePicker, getTimeSpan())
@@ -264,7 +264,7 @@ class TimeRangePicker : ConstraintLayout, View.OnClickListener {
                     to += TimeHelper.daysInMilli * 7
                 }
                 Granularity.TIME -> {
-                    to += TimeHelper.hoursInMilli * 1
+                    to += TimeHelper.minutesInMilli * 10
                 }
             }
             timeRangeChanged.invoke(this@TimeRangePicker, getTimeSpan())

@@ -27,8 +27,8 @@
 
     <string name="msg_tracker_list_time_format">a hh:mm</string>
 
-    <string name="time_range_picker_30_mins">+ 30분</string>
-    <string name="time_range_picker_1_hour">+ 1시간</string>
+    <string name="time_range_picker_30_mins">+ 5분</string>
+    <string name="time_range_picker_1_hour">+ 10분</string>
 
     <string name="time_range_picker_1_day">+ 1일</string>
     <string name="time_range_picker_1_week">+ 1주</string>
